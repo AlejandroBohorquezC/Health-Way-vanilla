@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0;
+  }
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #4B39EF;
+    padding: 2rem;
+    height: 10rem;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    gap: 1rem;
+}
+
+.input-field {
+    font-size: 1.8rem;
+    width: 60%;
+    padding: 0.3rem 0.4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #4B39EF;
+  }
+  
+  .submit {
+    width: 30%;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #4B39EF;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.recipe {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 4px 1px #9a9a9a;
+}
+
+.recipe-name {
+    width: 50%;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.recipe-image {
+    width: 40%;
+}

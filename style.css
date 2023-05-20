@@ -78,7 +78,6 @@ body {
   height: 4rem;
   border-radius: 0.5rem;
   border: 0.1rem solid #4B39EF;
-  cursor: pointer;
 }
 
 .submit {
@@ -90,6 +89,7 @@ body {
   font-weight: 700;
   font-size: 1.5rem;
   color: #4B39EF;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
