@@ -92,6 +92,20 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 750px) {
+  .buttons {
+    gap: 4rem;
+  }
+
+  .field {
+    width: 50%;
+  }
+
+  .submit {
+    width: 25%;
+  }
+}
+
 @media (min-width: 1200px) {
   .buttons {
     gap: 8rem;
